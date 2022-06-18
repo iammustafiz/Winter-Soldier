@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a:hover{
+    color: #FABE4C!important;
+}
+
+header{
+    padding: 85px 0;
+}
+
+
+.navbar{
+background-color: #FFFBF0;
+}
+
+
+@media only screen and (max-width:968px) {
+
+    .ban-top{
+        margin-top: 30px;
+    }
+
+    .banner-image img{
+        margin-top: 33px;
+    }
+
+    .nav-item a{
+        color: gray!important;
+    }
+
+
+    .flyer{
+
+        flex-direction: column-reverse!important;
+    }
+    .content-image{
+        margin-top: 20px!important;
+        margin-bottom: 60px!important;
+    }
+
+    }
